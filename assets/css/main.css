@@ -3,7 +3,7 @@
 @import "https://fonts.googleapis.com/css?family=Raleway:100,300,600";
 
 /*
-	Theory by TEMPLATED
+	Theory by TEMPLATED modified by AMA
 	templated.co @templatedco
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
@@ -2764,11 +2764,11 @@
 			padding: 0 0.75em;
 			color: inherit;
 			text-decoration: none;
-			font-size: .8em;
+			font-size: 1em;
 		}
 
 			#header a:hover {
-				color: #ffffff;
+				color: #000000;
 			}
 
 			#header a:last-child {
@@ -2945,7 +2945,7 @@
 
 		#banner h1 {
 			font-size: 3.5em;
-			font-weight: 200;
+			font-weight: 300;
 			color: #fff;
 			line-height: 1em;
 			margin: 0 0 0.5em 0;
@@ -2954,8 +2954,8 @@
 
 		#banner p {
 			font-size: 2.5em;
-			font-weight: bold;
-			color: rgb(0, 0, 0);
+			font-weight: 300;
+			color: #fff;
 			margin-bottom: 1.75em;
 		}
 
