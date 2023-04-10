@@ -1841,7 +1841,8 @@
 				}
 
 				section.wrapper header p, article.wrapper header p {
-					font-size: .9em;
+					color: #24212e;
+					font-size: 1em;
 				}
 
 		}
