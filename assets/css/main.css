@@ -1774,7 +1774,9 @@
 		}
 
 /* Section/Article */
-
+	section.wrapper.style1 p, article.wrapper.style1 p {
+		color: #000000;
+	}
 	section.special, article.special {
 		text-align: center;
 	}
