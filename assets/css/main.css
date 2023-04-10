@@ -1798,6 +1798,7 @@
 
 			section.wrapper header p, article.wrapper header p {
 				font-size: 1em;
+				color: #202f4f;
 			}
 
 		section.wrapper article header, article.wrapper article header {
