@@ -1,6 +1,7 @@
+
 <!DOCTYPE HTML>
 <!--
-	Theory by TEMPLATED modified by AMA
+	Theory by TEMPLATED, changed by AMA
 	templated.co @templatedco
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 -->
@@ -13,23 +14,36 @@
 	</head>
 	<body>
 
-		<!-- Header -->
-			<header id="header">
-				<div class="inner">
-					<a href="index.html" class="logo">CONNECTOR CONSULTING</a>
-					<nav id="nav">
-						<a herf="index.html"><address>connector.consulting@cc.com</address></a>
-						<a href="generic.html">Information</a>
-						<a href="elements.html">Integrity&policy</a>
-					</nav>
-					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
-				</div>
-			</header>
+<!-- Header -->
+<header id="header">
+	<div class="inner">
+	  <a href="index.html" class="logo">CONNECTOR CONSULTING</a>
+	  <nav id="nav">
+		<a href="#" id="email-link">
+		  <address style="background-color: rgb(20, 5, 100); font-size: 16px;">connector.consulting@outlook.com</address>
+		</a>
+	  </nav>
+	</div>
+  </header>
+  
+  <script>
+	const emailLink = document.querySelector("#email-link");
+  
+	emailLink.addEventListener("click", function(event) {
+	  event.preventDefault();
+	  const email = "connector.consulting@outlook.com";
+	  navigator.clipboard.writeText(email);
+	  emailLink.innerHTML = '<address style="background-color: rgb(25, 30, 50); font-size: 16px;">Email copied to clipboard</address>';
+	  setTimeout(() => {
+		emailLink.innerHTML = '<address style="background-color: rgb(25, 30, 50); font-size: 16px;">connector.consulting@outlook.com</address>';
+	  }, 2000);
+	});
+  </script>
 
 		<!-- Banner -->
 			<section id="banner">
 				<h1>CONNECTOR CONSULTING</h1>
-				<p style="font-size: large;">Your go to project partner!</p>
+				<p style="font-size: large;">YOUR GO TO M.E.P PARTNER!</p>
 			</section>
 
 		<!-- One -->
@@ -38,31 +52,25 @@
 					<div class="flex flex-3">
 						<article>
 							<header>
-								<h3>Long and wide expertise within the business</h3>
-							</header>
-							<p>Infrastructure, Industry, Pharma and Energy.</p>
-							<footer>
-								<a href="#" class="button special">More</a>
+							<h3>WIDE EXPERTISE</h3>
+								</header>
+								<p>From Hands on experience with piping and welding (authorised) to the design table towards;Industry, EPC Engineering, Infrastructure.</p>
 							</footer>
-						</article>
-						<article>
-							<header>
-								<h3>Concept design, Basic design<br /> and Detail design engineering</h3>
-							</header>
-							<p>Expertise range from on-site project leading to the draw table.</p>
-							<footer>
-								<a href="#" class="button special">More</a>
+							</article>
+								<article>
+								<header>
+							<h3>CONCEPT, BASIC AND<br />DETAIL DESIGN ENGINEERING</h3>
+								</header>
+								<p>Customer eccentric design within plant engineering & Life-Science and Food & Pharma.</p>
 							</footer>
-						</article>
-						<article>
-							<header>
-								<h3>Digital saving, Project<br /> backtracking</h3>
-							</header>
-							<p>Different storage methods avaible, To get deliverd in or to save for future renovations or data tracking.</p>
-							<footer>
-								<a href="#" class="button special">More</a>
+							</article>
+								<article>
+								<header>
+							<h3>SPECIALIST AND<br /> THE LATEST TRENDS</h3>
+								</header>
+								<p>Autodesk Docs, Revit, Navisworks, Inventor, BIM360, Autocad Plant and Mechanical, Inventor.Digital saving and futureprof backtracking. Smarter modelling.</p>
 							</footer>
-						</article>
+							</article>
 					</div>
 				</div>
 			</section>
@@ -71,37 +79,37 @@
 			<section id="two" class="wrapper style1 special">
 				<div class="inner">
 					<header>
-						<h2>Company map</h2>
-						<p>Where it all began, how it evolved and where we are going</p>
+						<h2>CONNECTOR CONSULTING</h2>
+						<p>Building new relations and new Toolkits within the latest AEC trends</p>
 					</header>
 					<div class="flex flex-4">
 						<div class="box person">
 							<div class="image round">
 								<img src="images/pic03.jpg" alt="Person 1" />
 							</div>
-							<h3>Early History</h3>
-							<p>Small group, expertise building and planning</p>
+							<h3>Ideas</h3>
+							<p>""</p>
 						</div>
 						<div class="box person">
 							<div class="image round">
-								<img src="images/pic04.jpg" alt="Person 2" />
+								<img src="images/pic07.jpg" alt="Person 2" />
 							</div>
 							<h3>Establishment</h3>
-							<p>Business idea and goals, what we do and support</p>
+							<p>""</p>
 						</div>
 						<div class="box person">
 							<div class="image round">
 								<img src="images/pic05.jpg" alt="Person 3" />
 							</div>
-							<h3>Toolkits & Targets</h3>
-							<p>See information page for more about the subject</p>
+							<h3>Toolkits & Goals</h3>
+							<p>""</p>
 						</div>
 						<div class="box person">
 							<div class="image round">
 								<img src="images/pic06.jpg" alt="Person 4" />
 							</div>
-							<h3>Future</h3>
-							<p>Growth and customer relations</p>
+							<h3>People and relations</h3>
+							<p>""</p>
 						</div>
 					</div>
 				</div>
@@ -111,8 +119,8 @@
 			<section id="three" class="wrapper special">
 				<div class="inner">
 					<header class="align-center">
-						<h2>Always looking for new relations and challanges.</h2>
-						<p>Don't hold on to out-dated habbits. The future is tomorrow, design must be done for whats coming. </p>
+						<h2>Always looking for new expertise, relations and challanges</h2>
+						<p>Change out-dated habbits. Future is tomorrow, design for whats coming. </p>
 					</header>
 					<div class="flex flex-2">
 						<article>
@@ -122,9 +130,7 @@
 							<header>
 								<h3>Specialities</h3>
 							</header>
-							<p>Design and assembly, welding. Super-users within several platforms.</p>
-							<footer>
-								<a href="#" class="button special">More</a>
+							<p>Licensed Super-users within several platforms.</p>
 							</footer>
 						</article>
 						<article>
@@ -132,11 +138,9 @@
 								<img src="images/pic02.jpg" alt="Pic 02" />
 							</div>
 							<header>
-								<h3>Project matters</h3>
+								<h3>Project Matters</h3>
 							</header>
-							<p>There is a learning in everything we do, Contact: connector.consulting@cc.se for more information.</p>
-							<footer>
-								<a href="#" class="button special">More</a>
+							<p>There is a learning in everything we do, Contact: connector.consulting@outlook.com for more information.</p>
 							</footer>
 						</article>
 					</div>
@@ -148,7 +152,7 @@
 				<div class="inner">
 					<div class="flex">
 						<div class="copyright">
-							&copy; C/C All rights reserved. Design: <a >C/C</a>.	Images: <a >From licensed programs and applications as autodesk and free stock unsplash</a>.
+							&copy; C/C All rights reserved. Design: <a >C/C</a>.	Images: <a >From licensed programs and applications</a>.
 						</div>
 						<ul class="icons">
 							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
@@ -160,10 +164,10 @@
 			</footer>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/skel.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
 
 	</body>
 </html>
