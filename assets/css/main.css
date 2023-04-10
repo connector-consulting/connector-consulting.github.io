@@ -1774,9 +1774,7 @@
 		}
 
 /* Section/Article */
-	section.wrapper.style1 p, article.wrapper.style1 p {
-		color: #000000;
-	}
+
 	section.special, article.special {
 		text-align: center;
 	}
@@ -1842,7 +1840,8 @@
 				}
 
 				section.wrapper header p, article.wrapper header p {
-					font-size: .9em;
+					font-size: 1.5em;
+					color: #000;
 				}
 
 		}
