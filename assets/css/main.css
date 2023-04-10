@@ -1806,7 +1806,7 @@
 
 		section.wrapper.style1, article.wrapper.style1 {
 			background: #5385c1;
-			color: #fff;
+			color: #BACEE6;
 		}
 
 			section.wrapper.style1 header h2, article.wrapper.style1 header h2 {
@@ -1814,11 +1814,11 @@
 			}
 
 			section.wrapper.style1 header p, article.wrapper.style1 header p {
-				color: #191919;
+				color: #BACEE6;
 			}
 
 			section.wrapper.style1 h3, article.wrapper.style1 h3 {
-				color: #191919;
+				color: #BACEE6;
 			}
 
 		@media screen and (max-width: 980px) {
