@@ -1798,7 +1798,6 @@
 
 			section.wrapper header p, article.wrapper header p {
 				font-size: 1em;
-				color: #202f4f;
 			}
 
 		section.wrapper article header, article.wrapper article header {
@@ -1807,7 +1806,7 @@
 
 		section.wrapper.style1, article.wrapper.style1 {
 			background: #5385c1;
-			color: #4a525c;
+			color: #333;
 		}
 
 			section.wrapper.style1 header h2, article.wrapper.style1 header h2 {
@@ -1815,7 +1814,7 @@
 			}
 
 			section.wrapper.style1 header p, article.wrapper.style1 header p {
-				color: #202f4f;
+				color: #bacee6;
 			}
 
 			section.wrapper.style1 h3, article.wrapper.style1 h3 {
