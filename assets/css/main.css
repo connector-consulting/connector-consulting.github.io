@@ -1798,7 +1798,7 @@
 
 			section.wrapper header p, article.wrapper header p {
 				font-size: 1em;
-				color: #BACEE6;
+				
 			}
 
 		section.wrapper article header, article.wrapper article header {
@@ -1807,19 +1807,19 @@
 
 		section.wrapper.style1, article.wrapper.style1 {
 			background: #5385c1;
-			color: #BACEE6;
+			color: #bacee6;
 		}
 
 			section.wrapper.style1 header h2, article.wrapper.style1 header h2 {
-				color: #BACEE6;
+				color: #fff;
 			}
 
 			section.wrapper.style1 header p, article.wrapper.style1 header p {
-				color: #BACEE6;
+				color: #bacee6;
 			}
 
 			section.wrapper.style1 h3, article.wrapper.style1 h3 {
-				color: #BACEE6;
+				color: #FFF;
 			}
 
 		@media screen and (max-width: 980px) {
@@ -1841,8 +1841,7 @@
 				}
 
 				section.wrapper header p, article.wrapper header p {
-					font-size: 1.5em;
-					color: #000;
+					font-size: .9em;
 				}
 
 		}
@@ -1860,7 +1859,7 @@
 		}
 
 	header p {
-		color: #bbb;
+		color: #24212e;
 		position: relative;
 		margin: 0 0 1.5em 0;
 	}
