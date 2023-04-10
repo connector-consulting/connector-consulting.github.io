@@ -1822,8 +1822,9 @@
 			}
 
 /* Change color of p element in special wrapper */
-			section.wrapper.style1 p.special-text, article.wrapper.style1 p.special-text {
-			 	color: #FF00000;
+			section.wrapper.style1 article p,
+			article.wrapper.style1 article p {
+  				color: #ff0000;
 			}
 
 		@media screen and (max-width: 980px) {
