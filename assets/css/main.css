@@ -1805,8 +1805,8 @@
 		}
 
 		section.wrapper.style1, article.wrapper.style1 {
-			background: #5385c1;
-			color: #333;
+			background: #fff;
+			color: #3a5da5;
 		}
 
 			section.wrapper.style1 header h2, article.wrapper.style1 header h2 {
@@ -1814,7 +1814,7 @@
 			}
 
 			section.wrapper.style1 header p, article.wrapper.style1 header p {
-				color: #bacee6;
+				color: #202f4f;
 			}
 
 			section.wrapper.style1 h3, article.wrapper.style1 h3 {
